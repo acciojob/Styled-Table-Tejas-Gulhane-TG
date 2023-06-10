@@ -1,1 +1,23 @@
 /* your code */
+table{
+    width: 600;
+    height: 300;
+    border-collapse: collapse;
+}
+thead{
+    background-color: darkblue;
+    cell-spacing:0px;
+}
+thead tr{
+    /* 	background-color:darkblue; */
+        color:white;
+        height:30px;
+        border-radius:5px;
+    }
+    th{
+        text-transform: uppercase;
+    }
+    
+    tbody tr:nth-child(even){
+        background-color:lightblue;
+    }
